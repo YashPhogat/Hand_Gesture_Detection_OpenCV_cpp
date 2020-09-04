@@ -179,7 +179,7 @@ int main(int argc, const char * argv[]) {
                           if (area_ratio<12){
                             cv::putText(frame, "0", Point(0,50), cv::FONT_HERSHEY_SIMPLEX, 2, cv::Scalar(0,0,255));
                           }
-                          else if (area_ratio<12){
+                          else if (area_ratio<17.5){
                           cv::putText(frame, "Good Luck", Point(0,50), cv::FONT_HERSHEY_SIMPLEX, 2, cv::Scalar(0,0,255));
                           }
                           else{
